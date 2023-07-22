@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 2100000, guid: aeab33f69c199e54794f516d31450ec4, type: 2}
+  m_SkyboxMaterial: {fileID: 2100000, guid: 99fb54a4b0d037142944ad0470063f00, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -3077,14 +3077,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 277863191}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1077729b42d32b44c9f9096f15ea40fc, type: 3}
+  m_Script: {fileID: 11500000, guid: a29fc7b29959a224a8586eca5e1423c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mesh_renderer: {fileID: 0}
+  mesh_renderer: {fileID: 277863196}
   health_pot: {fileID: 277863191}
   PotionLight: {fileID: 688650119}
-  hover_mat: {fileID: 0}
-  mat: {fileID: 0}
+  hover_mat: {fileID: 2100000, guid: d9833e0a01d4bf140b1559b18cb59a46, type: 2}
+  mat: {fileID: 2100000, guid: 6b051bc964265438b9edf8fb79c57ccb, type: 2}
 --- !u!65 &277863194
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3114,6 +3114,12 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!23 &277863196 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 2373498, guid: fb5a9652227c545d98a413cd73b80b69,
+    type: 3}
+  m_PrefabInstance: {fileID: 277863190}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &277863198
 MonoBehaviour:
   m_ObjectHideFlags: 0
